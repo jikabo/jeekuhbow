@@ -33,22 +33,22 @@
         <q-list no-border>
           <q-item>
             <q-item-main>
-              <div class="nav q-display-1 right text-brown-6">Home</div>
+              <div @click="scrollToSection('home')" class="nav q-display-1 right text-brown-6">Home</div>
             </q-item-main>
           </q-item>
           <q-item>
             <q-item-main>
-              <div class="nav q-display-1 right text-brown-6">Gallery</div>
+              <div @click="scrollToSection('gallery')" class="nav q-display-1 right text-brown-6">Gallery</div>
             </q-item-main>
           </q-item>
           <q-item>
             <q-item-main>
-              <div class="nav q-display-1 right text-brown-6">About Us</div>
+              <div @click="scrollToSection('about')" class="nav q-display-1 right text-brown-6">About Us</div>
             </q-item-main>
           </q-item>
           <q-item>
             <q-item-main>
-              <div class="nav q-display-1 right text-brown-6">Contacts</div>
+              <div @click="scrollToSection('contact')" class="nav q-display-1 right text-brown-6">Contacts</div>
             </q-item-main>
           </q-item>
         </q-list>
@@ -82,8 +82,8 @@
 </template>
 
 <script>
-import { openURL } from 'quasar'
-
+import { scroll } from 'quasar'
+const { getScrollTarget, setScrollPosition } = scroll
 export default {
   name: 'LayoutDefault',
   data () {
@@ -92,7 +92,13 @@ export default {
     }
   },
   methods: {
-    openURL
+    scrollToSection (sectionId) {
+      const targetElement = document.getElementById(sectionId)
+      const scrollTarget = getScrollTarget(targetElement)
+      const offset = targetElement.offsetTop - targetElement.scrollHeight
+      const bugOffset = sectionId === 'about' ? 800 : 650
+      setScrollPosition(scrollTarget, offset + bugOffset, 1000)
+    }
   }
 }
 </script>
@@ -108,4 +114,7 @@ export default {
     border-radius 0
 .nav
   cursor pointer
+  &:hover
+    color white !important
+    font-style italic
 </style>

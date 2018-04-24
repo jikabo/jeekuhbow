@@ -49,6 +49,7 @@ module.exports = function (ctx) {
         'QLayoutDrawer',
         'QPageContainer',
         'QPage',
+        'QPageSticky',
         'QToolbar',
         'QToolbarTitle',
         'QBtn',
@@ -58,11 +59,18 @@ module.exports = function (ctx) {
         'QItem',
         'QItemMain',
         'QItemSide',
-        'QParallax'
+        'QCarousel',
+        'QCarouselSlide',
+        'QCarouselControl',
+        'QModal',
+        'QParallax',
+        'QChip',
+        'QIcon'
       ],
       directives: [
         'Ripple',
-        'CloseOverlay'
+        'CloseOverlay',
+        'BackToTop'
       ],
       // Quasar plugins
       plugins: [
