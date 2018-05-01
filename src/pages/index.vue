@@ -7,7 +7,11 @@
       </p>
     </q-parallax>
     <gallery />
+    <div class="text-center q-mt-xl ab-divider">
+      <img src="~assets/divider.png"/>
+    </div>
     <about />
+    <separator />
     <contact />
       <packages />
     <q-page-sticky position="top-right" :offset="[0, 500]">
@@ -32,14 +36,17 @@
   max-width 1000px
   font-family 'Helvetica Neue'
   text-align right
+.ab-divider
+  margin-top 150px
 </style>
 <script>
 import packages from '../components/packages'
 import gallery from '../components/gallery'
 import about from '../components/about'
 import contact from '../components/contact'
+import separator from '../components/separator'
 export default {
   name: 'PageIndex',
-  components: {packages, gallery, about, contact}
+  components: {packages, gallery, about, contact, separator}
 }
 </script>

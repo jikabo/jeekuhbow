@@ -65,7 +65,11 @@ module.exports = function (ctx) {
         'QModal',
         'QParallax',
         'QChip',
-        'QIcon'
+        'QIcon',
+        'QCard',
+        'QCardTitle',
+        'QCardMain',
+        'QCardSeparator'
       ],
       directives: [
         'Ripple',

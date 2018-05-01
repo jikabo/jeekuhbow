@@ -33,20 +33,20 @@
         <q-list no-border>
           <q-item>
             <q-item-main>
-              <div @click="scrollToSection('home')" class="nav q-display-1 right text-brown-6">Home</div>
+              <div @click="clickHome()" class="nav q-display-1 right text-brown-6">Home</div>
             </q-item-main>
           </q-item>
-          <q-item>
+          <q-item v-if="shouldShowLink">
             <q-item-main>
               <div @click="scrollToSection('gallery')" class="nav q-display-1 right text-brown-6">Gallery</div>
             </q-item-main>
           </q-item>
-          <q-item>
+          <q-item v-if="shouldShowLink">
             <q-item-main>
               <div @click="scrollToSection('about')" class="nav q-display-1 right text-brown-6">About Us</div>
             </q-item-main>
           </q-item>
-          <q-item>
+          <q-item v-if="shouldShowLink">
             <q-item-main>
               <div @click="scrollToSection('contact')" class="nav q-display-1 right text-brown-6">Contacts</div>
             </q-item-main>
@@ -59,16 +59,44 @@
           inset-delimiter
         >
           <q-item class="package-link">
-            <q-btn square icon="child care" color="red-10" size="xl" class="full-width"/>
+            <q-btn
+              square
+              icon="child care"
+              color="red-10"
+              size="xl"
+              class="full-width"
+              @click="$router.push('/christening')"
+              />
           </q-item>
           <q-item class="package-link">
-            <q-btn square icon="spa" color="deep-orange-10" size="xl" class="full-width"/>
+            <q-btn
+              square
+              icon="cake"
+              color="red"
+              size="xl"
+              class="full-width"
+              @click="$router.push('/birthday')"
+              />
           </q-item>
           <q-item class="package-link">
-            <q-btn square icon="cake" color="red" size="xl" class="full-width"/>
+            <q-btn
+              square
+              icon="spa"
+              color="deep-orange-10"
+              size="xl"
+              class="full-width"
+              @click="$router.push('/debut')"
+              />
           </q-item>
           <q-item class="package-link">
-            <q-btn square icon="whatshot" color="deep-orange" size="xl" class="full-width"/>
+            <q-btn
+              square
+              icon="whatshot"
+              color="deep-orange"
+              size="xl"
+              class="full-width"
+              @click="$router.push('/wedding')"
+              />
           </q-item>
         </q-list>
       </div>
@@ -80,7 +108,6 @@
     </q-page-container>
   </q-layout>
 </template>
-
 <script>
 import { scroll } from 'quasar'
 const { getScrollTarget, setScrollPosition } = scroll
@@ -91,6 +118,11 @@ export default {
       leftDrawerOpen: this.$q.platform.is.desktop
     }
   },
+  computed: {
+    shouldShowLink () {
+      return this.$route.name === 'index'
+    }
+  },
   methods: {
     scrollToSection (sectionId) {
       const targetElement = document.getElementById(sectionId)
@@ -98,6 +130,12 @@ export default {
       const offset = targetElement.offsetTop - targetElement.scrollHeight
       const bugOffset = sectionId === 'about' ? 800 : 650
       setScrollPosition(scrollTarget, offset + bugOffset, 1000)
+    },
+    clickHome () {
+      if (this.$route.name !== 'index') {
+        this.$router.push('/')
+      }
+      this.scrollToSection('home')
     }
   }
 }
@@ -114,6 +152,8 @@ export default {
     border-radius 0
 .nav
   cursor pointer
+  font-family 'Tangerine', 'Lucida', sans
+  font-size 3em
   &:hover
     color white !important
     font-style italic
