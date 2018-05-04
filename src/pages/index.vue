@@ -1,11 +1,11 @@
 <template>
-  <q-page>
-    <q-parallax src="statics/homebg.jpg" :height="700" id="home">
-      <p class="header-quote text-italic q-display-3 float-right">
+  <q-page style="height: 100vh">
+    <div id="home" class="fit full-page-bg">
+      <p class="header-quote text-italic q-display-3 float-right q-ma-xl">
         “Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”
         <br /><span class="q-display-2">- Ruth Reichl</span>
       </p>
-    </q-parallax>
+    </div>
     <gallery />
     <div class="text-center q-mt-xl ab-divider">
       <img src="~assets/divider.png"/>
@@ -13,7 +13,6 @@
     <about />
     <separator />
     <contact />
-      <packages />
     <q-page-sticky position="top-right" :offset="[0, 500]">
       <a
         v-back-to-top.animate="1000"
@@ -26,6 +25,13 @@
 </template>
 <style lang="stylus" scoped>
 @import '~variables'
+.full-page-bg {
+  background url('/statics/homebg.jpg') no-repeat center center fixed
+  background-size cover
+  -webkit-background-size cover
+  -mox-background-size cover
+  -o-background-size cover
+}
 .play-backtotop
   color white
   padding 15px
@@ -36,17 +42,19 @@
   max-width 1000px
   font-family 'Helvetica Neue'
   text-align right
+  color white
+  text-shadow 2px 2px #ff5722
+  font-size 5em
 .ab-divider
   margin-top 150px
 </style>
 <script>
-import packages from '../components/packages'
 import gallery from '../components/gallery'
 import about from '../components/about'
 import contact from '../components/contact'
 import separator from '../components/separator'
 export default {
   name: 'PageIndex',
-  components: {packages, gallery, about, contact, separator}
+  components: {gallery, about, contact, separator}
 }
 </script>

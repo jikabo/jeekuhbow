@@ -12,12 +12,12 @@
       </li>
     </div>
     <separator v-if="info.menuPackages" />
-    <div class="fit text-center menu-packages" v-if="info.menuPackages">
+    <div style="full-width" v-if="info.menuPackages">
       <h3 class="text-center">Menu Packages</h3>
-      <div class="row">
-        <div v-for="(mp, index) in info.menuPackages" :key="index" class=" col-xs-12 col-sm-12 col-md-3 q-pb-lg">
-          <q-card inline color="brown-5" style="width: 200px">
-            <q-card-title>{{mp.name}}<span slot="subtitle">{{mp.price}}</span></q-card-title>
+      <div class="row menu-packages text-center">
+        <div v-for="(mp, index) in info.menuPackages" :key="index" class="col-xs-12 col-sm-6 col-md-4 q-pb-lg">
+          <q-card inline style="width: 230px">
+            <q-card-title>{{mp.name}}<span slot="subtitle" class="text-white">{{mp.price}}</span></q-card-title>
             <q-card-separator />
             <q-card-main>
               <li v-for="(item, iindex) in mp.items" :key="iindex" style="text-align: left">
@@ -43,13 +43,16 @@
         <q-icon name="star"/> {{item}}
       </li>
     </div>
+    <separator v-if="shouldShowMenuSelections" />
+    <dishes v-if="shouldShowMenuSelections" />
   </q-page>
 </template>
 <script>
 import separator from '../components/separator'
+import dishes from '../components/selections'
 import DATA from '../statics/data.json'
 export default {
-  components: {separator},
+  components: {separator, dishes},
   created () {
     this.initialize()
   },
@@ -70,7 +73,11 @@ export default {
         case 'wedding':
         default: this.info = DATA.packages[3]
       }
-      console.log(this.info)
+    }
+  },
+  computed: {
+    shouldShowMenuSelections () {
+      return this.$route.name === 'debut' || this.$route.name === 'wedding'
     }
   }
 }
@@ -87,5 +94,11 @@ h1
   repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
   repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
 .menu-packages
-  margin 0 auto
+  margin 0 auto !important
+/deep/ div.q-card
+  background-color: $brown-5;
+  background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+  radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+  background-size:80px 80px;
+  background-position:0 0, 40px 40px;
 </style>

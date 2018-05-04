@@ -31,26 +31,32 @@
     <div class="row">
       <div class="col-9">
         <q-list no-border>
-          <q-item>
+          <transition-group
+            appear
+            mode="out-in"
+            enter-active-class="animated lightSpeedIn"
+            leave-active-class="animated lightSpeedOut">
+          <q-item :key="1">
             <q-item-main>
               <div @click="clickHome()" class="nav q-display-1 right text-brown-6">Home</div>
             </q-item-main>
           </q-item>
-          <q-item v-if="shouldShowLink">
+          <q-item v-if="shouldShowLink" :key="2">
             <q-item-main>
               <div @click="scrollToSection('gallery')" class="nav q-display-1 right text-brown-6">Gallery</div>
             </q-item-main>
           </q-item>
-          <q-item v-if="shouldShowLink">
+          <q-item v-if="shouldShowLink" :key="3">
             <q-item-main>
               <div @click="scrollToSection('about')" class="nav q-display-1 right text-brown-6">About Us</div>
             </q-item-main>
           </q-item>
-          <q-item v-if="shouldShowLink">
+          <q-item v-if="shouldShowLink" :key="4">
             <q-item-main>
               <div @click="scrollToSection('contact')" class="nav q-display-1 right text-brown-6">Contacts</div>
             </q-item-main>
           </q-item>
+          </transition-group>
         </q-list>
       </div>
       <div class="col-3">
@@ -104,7 +110,9 @@
     </q-layout-drawer>
 
     <q-page-container>
-      <router-view />
+      <transition mode="out-in" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+        <router-view :key="$route.fullPath"/>
+      </transition>
     </q-page-container>
   </q-layout>
 </template>

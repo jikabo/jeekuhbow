@@ -288,6 +288,55 @@
         "Mineral water and tube ice",
         "Bottomless ice tea"
       ],
+      "menuPackages": [
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 350 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of vegetables or pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 400 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, prawn crackers or chips)",
+            "Steamed Pandan Rice",
+            "Choices of vegetables",
+            "Choices of pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 450 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of soup dish",
+            "Choices of vegetables",
+            "Choices of pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Jelly leche flan",
+            "Iced tea",
+            "Purified water"
+          ]
+        }
+      ],
       "terms": [
         "Additional 10% Service charge",
         "Upon Confirmation of Reserved date, 50% down payment is required upon contract signing & full settlement of balance is 3 days before or due immediately after the function.",
@@ -325,6 +374,55 @@
         "Mineral water and tube ice",
         "Bottomless ice tea"
       ],
+      "menuPackages": [
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 350 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of vegetables or pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 400 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, prawn crackers or chips)",
+            "Steamed Pandan Rice",
+            "Choices of vegetables",
+            "Choices of pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 450 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of soup dish",
+            "Choices of vegetables",
+            "Choices of pasta/noodles",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of beef or pork dish",
+            "Choices of dessert",
+            "Jelly leche flan",
+            "Iced tea",
+            "Purified water"
+          ]
+        }
+      ],
       "terms": [
         "Additional 10% Service charge",
         "Upon Confirmation of Reserved date, 50% down payment is required upon contract signing & full settlement of balance is 3 days before or due immediately after the function.",
@@ -338,6 +436,143 @@
         "Additional extra charge for special backdrop & decoration",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
+      ]
+    }
+  ],
+  "menuFoodSelections":[
+    {
+      "name": "Soup",
+      "image": "soup.png",
+      "menus": [
+        "Cream of soup",
+        "Nido with quail eggs",
+        "Creamy Macaroni soup",
+        "Crab and corn soup",
+        "Onion soup",
+        "Cream of mushroom"
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "image": "vegetables.png",
+      "menus": [
+        "Buttered corn and carrots",
+        "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+        "Vegetable Lumpia with peanut sauce",
+        "Vegetarian Kare-kare",
+        "Special Oriental Chopsuey with quail eggs",
+        "Mixed vegetables with Ham & quail egg in cream sauce",
+        "Stir fry buttered mix vegetable in oyster sauce",
+        "Chinese kangkong with ground pork & tofu in oyster sauce",
+        "Stir fry bean sprout, carrots & cabbages",
+        "Stir fried shiitake and champignon",
+        "Special pinoy flattered with special bagoong",
+        "Fresh cucumber salad with lime dressing",
+        "Garden salad",
+        "Coleslaw"
+      ]
+    },
+    {
+      "name": "Pasta and Noodles",
+      "image": "pasta.png",
+      "menus": [
+        "Special Sauted Canton",
+        "Sauted Bihon",
+        "Sauted Sotanghon",
+        "Sauted Sotanghon / Canton",
+        "Spaghetti or Fettuccini Carbonara Royale",
+        "Creamy Spaghetti",
+        "Baked Macaroni",
+        "Baked Spaghetti",
+        "Baked Pene",
+        "White cream pasta w/ Tuna chunks",
+        "Creamy Spaghetti w/ Tuna chunks",
+        "Lasagna"
+      ]
+    },
+    {
+      "name": "Fish",
+      "image": "fish.png",
+      "menus": [
+        "Breaded fish fillet with mayo mustard dip",
+        "Grilled fish with cucumber salsa",
+        "Sweet and sour fish fillet",
+        "Fish fillet with tofu & black beans",
+        "Fish shanghai rolls",
+        "Steamed fish fillet with white sauce and quail eggs",
+        "Grilled blue marlin or tuna steak",
+        "Grilled fish in lemon butter sauce"
+      ]
+    },
+    {
+      "name": "Chicken",
+      "image": "chicken.png",
+      "menus": [
+        "Breaded chicken cordon bleu in white cream sauce",
+        "Chicken strip teriyaki with bean sprout",
+        "Chicken ala pastel",
+        "Chicken Curry with vegetables",
+        "Diced chicken with cashew nuts",
+        "Breaded garlic chicken",
+        "Honey roasted chicken",
+        "Chicken tonkatsu with mayo honey mustard dip",
+        "Chicken steak supreme",
+        "Chicken with mushroom in cream sauce",
+        "Chicken Al orange",
+        "Chicken in BBQ sauce with potato marbles and Quail eggs",
+        "Steamed cordon bleu with white cream sauce",
+        "Chicken flambé",
+        "Hongkong style fried chicken with chips",
+        "Chicken ala king",
+        "Chicken buffalo wings",
+        "Onion baked chicken with pineapple chunks or potato chips",
+        "Chicken barbecue"
+      ]
+    },
+    {
+      "name": "Pork",
+      "image": "pork.png",
+      "menus": [
+        "Sweet and sour pork cutlets",
+        "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+        "Pork supreme in mushroom and quail eggs",
+        "Savory meat rolls",
+        "Pork Hardinera",
+        "Pork Tonkatsu",
+        "Pork ribs Calderetta with cheese",
+        "Grilled liempo in Barbecue sauce",
+        "Pork asado royale",
+        "Honey glazed pork",
+        "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+        "Pork roll crunch",
+        "Hawaiian roast pork with pineapple",
+        "Pork legs Kare-kare with special bagoong",
+        "Pork Shanghai rolls",
+        "Pork Hamonado",
+        "Pork bacon steak ala pobre",
+        "Pork ala pastel",
+        "Chinese style Lechon kawali with sauce",
+        "Spanish pork stew",
+        "Pork Teriyaki with bean sprout"
+      ]
+    },
+    {
+      "name": "Beef",
+      "image": "beef.png",
+      "menus": [
+        "Roast beef in mushroom gravy sauce with mashed potato",
+        "Beef with mushroom in cream sauce",
+        "Saucy special beef Calderetta",
+        "Beef with Brocolli and green peas in oyster sauce",
+        "Beef teriyaki with bean sprout",
+        "Beef Stroganoff",
+        "Korean beef stew supreme",
+        "Beef bristket chunks Mechado",
+        "Shredded beef with red & green bell pepper and butter mushroom",
+        "Beef oxtail Kare-kare with special bagoong alamang",
+        "Beef strips steak with onion rings, potato and bell pepper",
+        "Hawaiian beef asado with pineapple chunks",
+        "Beef Morcon"
       ]
     }
   ]
