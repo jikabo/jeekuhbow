@@ -1,7 +1,7 @@
 <template>
   <q-page style="height: 100vh">
-    <div id="home" class="fit full-page-bg">
-      <p class="header-quote text-italic q-display-3 float-right q-ma-xl">
+    <div id="home" class="full-page-bg">
+      <p class="header-quote text-italic">
         “Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”
         <br /><span class="q-display-2">- Ruth Reichl</span>
       </p>
@@ -31,6 +31,13 @@
   -webkit-background-size cover
   -mox-background-size cover
   -o-background-size cover
+  width: 100%;
+  height: 700px;
+}
+#home::after {
+  content "";
+  display table
+  clear both
 }
 .play-backtotop
   color white
@@ -44,7 +51,8 @@
   text-align right
   color white
   text-shadow 2px 2px #ff5722
-  font-size 5em
+  font-size 4rem
+  padding 3rem
 .ab-divider
   margin-top 150px
 </style>

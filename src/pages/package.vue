@@ -79,7 +79,8 @@ export default {
   },
   computed: {
     shouldShowMenuSelections () {
-      return this.$route.name === 'debut' || this.$route.name === 'wedding'
+      // return this.$route.name === 'debut' || this.$route.name === 'wedding'
+      return true
     }
   }
 }

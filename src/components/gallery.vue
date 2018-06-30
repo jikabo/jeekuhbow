@@ -8,14 +8,9 @@
       quick-nav
       height="97vh"
     >
-      <q-carousel-slide img-src='statics/gallery/img1.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img2.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img3.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img4.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img5.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img6.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img7.jpg' />
-      <q-carousel-slide img-src='statics/gallery/img8.jpg' />
+      <q-carousel-slide v-for="(image, key) in imageNums"
+          :key="key"
+          :img-src='`"statics/gallery/img (${image}).jpg"`' />
     </q-carousel>
   </div>
 </template>
@@ -23,7 +18,15 @@
 
 </style>
 <script>
+import {galleryImageCount} from '../statics/data.json'
 export default {
-
+  created () {
+    this.length = galleryImageCount
+  },
+  computed: {
+    imageNums () {
+      return Array.from({length: this.length}, (x, i) => i + 1)
+    }
+  }
 }
 </script>

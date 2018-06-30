@@ -800,6 +800,24 @@
         "Hawaiian beef asado with pineapple chunks",
         "Beef Morcon"
       ]
+    },
+    {
+      "name": "Dessert",
+      "image": "dessert.png",
+      "menus": [
+        "Buko Pandan",
+        "Creamy Fruit Salad",
+        "Buko Fruit Salad",
+        "Leche Plan",
+        "Jelly Leche Plan",
+        "Coffee Jelly with Cream and Tapioca",
+        "Mango Jelly with Cream and Tapioca",
+        "Penne or Macaroni Chicken salad for Php 450.00 and up",
+        "Tropical fruit cocktail",
+        "Assorted fruits in season",
+        "Mango gelatin"
+      ]
     }
-  ]
+  ],
+  "galleryImageCount": 104
 }
