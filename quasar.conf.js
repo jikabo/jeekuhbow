@@ -16,10 +16,6 @@ module.exports = function (ctx) {
       // 'fontawesome'
     ],
     supportIE: true,
-    vendor: {
-      add: [],
-      remove: []
-    },
     build: {
       scopeHoisting: true,
       vueRouterMode: 'history',
@@ -65,7 +61,6 @@ module.exports = function (ctx) {
         'QModal',
         'QParallax',
         'QChip',
-        'QIcon',
         'QCard',
         'QCardTitle',
         'QCardMain',
