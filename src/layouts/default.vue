@@ -25,8 +25,9 @@
       v-model="leftDrawerOpen"
       content-class="bg-grey-10"
     >
-    <div class="q-py-lg text-center">
+    <div id="logo-box" class="q-py-xl text-center">
       <img alt="Jikabo logo" src="~assets/logo.png">
+      <p class="text-white">Catering Services</p>
     </div>
     <div class="row">
       <div class="col-9">
@@ -87,7 +88,17 @@
           <q-item class="package-link">
             <q-btn
               square
-              icon="spa"
+              icon="local_play"
+              color="orange"
+              size="xl"
+              class="full-width"
+              @click="$router.push('/party')"
+              />
+          </q-item>
+          <q-item class="package-link">
+            <q-btn
+              square
+              icon="local_florist"
               color="deep-orange-10"
               size="xl"
               class="full-width"
@@ -97,7 +108,7 @@
           <q-item class="package-link">
             <q-btn
               square
-              icon="whatshot"
+              icon="favorite"
               color="deep-orange"
               size="xl"
               class="full-width"
@@ -150,6 +161,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+#logo-box
+  margin-top 3rem
+  font-size 2rem
+  font-family 'Tangerine', 'Lucida', sans
 .q-layout-header
   box-shadow 0
 .right

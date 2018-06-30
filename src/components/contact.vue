@@ -3,7 +3,7 @@
     <div class="text-white">
       <h2 class="text-center"> Contact Us </h2>
       <div class="q-ma-xl text-center">
-        <p>Unit F Lot 165-I, Psd-59327</p>
+        <p>2nd Floor, Guerreror Bldg. (Beside tollgate), East Service Road</p>
         <p>Alabang, Muntinlupa City</p>
         <p><q-icon name="local phone" />(02) 475-6870</p>
         <p><q-icon name="local phone" />(02) 938-4117</p>

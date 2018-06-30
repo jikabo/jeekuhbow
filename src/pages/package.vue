@@ -3,6 +3,7 @@
     <separator />
     <div class="header fit">
       <h1 class="text-center">{{info.name}}</h1>
+      <h3 class="text-center">Prices start at {{info.priceStart}}</h3>
     </div>
     <separator />
     <div class="text-center">
@@ -17,7 +18,7 @@
       <div class="row menu-packages text-center">
         <div v-for="(mp, index) in info.menuPackages" :key="index" class="col-xs-12 col-sm-6 col-md-4 q-pb-lg">
           <q-card inline style="width: 230px">
-            <q-card-title>{{mp.name}}<span slot="subtitle" class="text-white">{{mp.price}}</span></q-card-title>
+            <q-card-title>{{mp.name}}</q-card-title>
             <q-card-separator />
             <q-card-main>
               <li v-for="(item, iindex) in mp.items" :key="iindex" style="text-align: left">
@@ -69,9 +70,10 @@ export default {
       switch (this.$route.name) {
         case 'christening': this.info = DATA.packages[0]; break
         case 'birthday': this.info = DATA.packages[1]; break
-        case 'debut': this.info = DATA.packages[2]; break
+        case 'party': this.info = DATA.packages[2]; break
+        case 'debut': this.info = DATA.packages[3]; break
         case 'wedding':
-        default: this.info = DATA.packages[3]
+        default: this.info = DATA.packages[4]
       }
     }
   },

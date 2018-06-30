@@ -2,6 +2,7 @@
   "packages": [
     {
       "name": "Christening Package",
+      "priceStart": "Php 150 per kid",
       "inclusions": [
         "Menu of choices",
         "Impressive buffet tables with setup & center piece",
@@ -14,99 +15,110 @@
       ],
       "menuPackages": [
         {
-          "name": "Kiddie Menu 1",
-          "price": "Php 150 per kid",
-          "items": [
-            "Spaghetti",
-            "Fried Chicken",
-            "Hotdog on stick with marshmallow",
-            "Cupcakes",
-            "Orange juice"
-          ]
-        },
-        {
-          "name": "Kiddie Menu 2",
-          "price": "Php 150 per kid",
-          "items": [
-            "Spaghetti",
-            "Chicken finger or Lollipop",
-            "Hotdog on stick with marshmallow",
-            "Cupcakes",
-            "Orange juice"
-          ]
-        },
-        {
-          "name": "Kiddie Menu 3",
-          "price": "Php 160 per kid",
-          "items": [
-            "Spaghetti",
-            "Fried Chicken",
-            "Spring Rolls",
-            "Hotdog on stick with marshmallow",
-            "Cupcakes",
-            "Orange juice"
-          ]
-        },
-        {
-          "name": "Kiddie Menu 4",
-          "price": "Php 170 per kid",
-          "items": [
-            "Spaghetti",
-            "Fried finger or Lollipop",
-            "Pork Barbecue",
-            "Hotdog on stick with marshmallow",
-            "Cupcakes",
-            "Orange juice"
-          ]
-        },
-        {
-          "name": "Merienda Menu 1",
-          "price": "Php 200 per head",
-          "items": [
-            "Sauted Canton or Sauted Bihon",
-            "Chicken fingers with dip",
-            "Shanghai rolls",
-            "Jelly Leche Flan",
-            "Iced tea",
-            "Purified Water"
-          ]
-        },
-        {
-          "name": "Merienda Menu 2",
-          "price": "Php 200 per head",
-          "items": [
-            "Sauted Bihon or Sauted Canton-Bihon",
-            "Chicken fingers with dip",
-            "Shanghai rolls",
-            "Jelly Leche Flan",
-            "Iced tea",
-            "Purified Water"
-          ]
-        },
-        {
-          "name": "Merienda Menu 3",
-          "price": "Php 220 per head",
-          "items": [
-            "Fettuccini Carbonara or Creamy Spaghetti",
-            "Buffalo Wings or Breaded Fried Chicken",
-            "Garlic Bread",
-            "Pork Siomai or Mini Siopao",
-            "Fruit Salad or Jelly Leche Flan or Buko Pandan",
-            "Iced tea",
-            "Purified Water"
-          ]
-        },
-        {
-          "name": "Merienda Menu 4",
+          "name": "Lunch or Dinner",
           "price": "Php 250 per head",
           "items": [
-            "Baked Macaroni or Lasagna or Carbonara",
-            "Chicken or fish strips",
-            "Buttered Puto or Garlic bread",
-            "Mini siopao",
-            "Pork Barbecue",
-            "Buko Pandan or Fruit salad",
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken or fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 280 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 330 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of beef dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Iced tea",
             "Purified Water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 350 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of beef dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 370 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Soup",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of chicken or pork dish",
+            "Choice of beef dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Leche flan",
+            "Iced tea",
+            "Purified Water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 450 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of pasta/noodles",
+            "Choices of beef dish",
+            "Choices of pork dish",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of vegetables",
+            "Choices of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 550 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, or kropek or chips)",
+            "Soup",
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of vegetables",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of 2 desserts",
+            "Bottomless Iced tea"
           ]
         }
       ],
@@ -117,7 +129,8 @@
         "Reservation fee is Php 3000.00 (non-refundable if party is cancelled)",
         "Overtime fee of P100.00/hour after 4 hours of service and Php 100.00 per floor for each waiter if the function is held in a building w/o service elevator",
         "Distance fee of Php 100.00 per waiter if venue is far from the unloading area",
-        "Additional Transportation fee for out of Town Venue or 10km radius from the office",
+        "Additional Transportation fee for out-of-town venue or 10km radius from the office",
+        "Additional Php 6000.00 for special back drop with theme and elevated platform.",
         "Additional fee for Lechon Chopper (Php 600.00 per Lechon)",
         "Additional Php 80.00 per head for Tiffany chair",
         "Additional extra charge for special backdrop & decoration",
@@ -135,6 +148,7 @@
     },
     {
       "name": "Birthday Package",
+      "priceStart": "Php 150 per kid",
       "inclusions": [
         "Menu of choices",
         "Impressive buffet tables with setup & center piece",
@@ -241,6 +255,80 @@
             "Buko Pandan or Fruit salad",
             "Purified Water"
           ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 250 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken or fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 280 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 350 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of beef dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 450 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of pasta/noodles",
+            "Choices of beef dish",
+            "Choices of pork dish",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of vegetables",
+            "Choices of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 550 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, or kropek or chips)",
+            "Soup",
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of vegetables",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of 2 desserts",
+            "Bottomless Iced tea"
+          ]
         }
       ],
       "terms": [
@@ -250,7 +338,8 @@
         "Reservation fee is Php 3000.00 (non-refundable if party is cancelled)",
         "Overtime fee of P100.00/hour after 4 hours of service and Php 100.00 per floor for each waiter if the function is held in a building w/o service elevator",
         "Distance fee of Php 100.00 per waiter if venue is far from the unloading area",
-        "Additional Transportation fee for out of Town Venue or 10km radius from the office",
+        "Additional Transportation fee for out-of-town venue or 10km radius from the office",
+        "Additional Php 6000.00 for special back drop with theme and elevated platform.",
         "Additional fee for Lechon Chopper (Php 600.00 per Lechon)",
         "Additional Php 80.00 per head for Tiffany chair",
         "Additional extra charge for special backdrop & decoration",
@@ -267,7 +356,113 @@
       }
     },
     {
+      "name": "Party Package",
+      "priceStart": "Php 250 per head",
+      "inclusions": [
+        "Menu of choices",
+        "Impressive buffet tables with setup & center piece",
+        "Motif color subject for availability",
+        "Elegant dressed up monoblock chairs with cover & ribbon",
+        "Gift and cake table with skirting",
+        "All silverware and glassware",
+        "Cordial uniformed waiter",
+        "Mineral water and tube-ice"
+      ],
+      "menuPackages": [
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 250 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken or fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 280 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of chicken",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 350 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
+            "Choice of pork dish",
+            "Choice of beef dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 450 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choices of pasta/noodles",
+            "Choices of beef dish",
+            "Choices of pork dish",
+            "Choices of chicken dish",
+            "Choices of fish dish",
+            "Choices of vegetables",
+            "Choices of dessert",
+            "Bottomless Iced tea"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 550 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, or kropek or chips)",
+            "Soup",
+            "Steamed Pandan Rice",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of vegetables",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of 2 desserts",
+            "Bottomless Iced tea"
+          ]
+        }
+      ],
+      "terms": [
+        "Additional 10% Service charge",
+        "Upon Confirmation of Reserved date, 50% down payment is required upon contract signing & full settlement of balance is 3 days before or due immediately after the function.",
+        "50% of the contract or any deposited amount will be forfeited for any cancellation made (6) days before the function",
+        "Reservation fee is Php 3000.00 (non-refundable if party is cancelled)",
+        "Overtime fee of P100.00/hour after 4 hours of service and Php 100.00 per floor for each waiter if the function is held in a building w/o service elevator",
+        "Distance fee of Php 100.00 per waiter if venue is far from the unloading area",
+        "Additional Transportation fee for out-of-town venue or 10km radius from the office",
+        "Additional Php 6000.00 for special back drop with theme and elevated platform.",
+        "Additional fee for Lechon Chopper (Php 600.00 per Lechon)",
+        "Additional Php 80.00 per head for Tiffany chair",
+        "Additional extra charge for special backdrop & decoration",
+        "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
+        "Client to bring container for left over"
+      ]
+    },
+    {
       "name": "Debut Package",
+      "priceStart": "Php 350 per head",
       "inclusions": [
         "Menu of choices",
         "Debutant Chair",
@@ -294,26 +489,10 @@
           "price": "Php 350 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choices of vegetables or pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
-            "Choices of dessert",
-            "Iced tea",
-            "Purified water"
-          ]
-        },
-        {
-          "name": "Lunch or Dinner",
-          "price": "Php 400 per head",
-          "items": [
-            "Appetizer: (roasted peanuts, prawn crackers or chips)",
-            "Steamed Pandan Rice",
-            "Choices of vegetables",
-            "Choices of pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
+            "Choice of vegetables or pasta/noodles",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of pork dish",
             "Choices of dessert",
             "Iced tea",
             "Purified water"
@@ -324,14 +503,45 @@
           "price": "Php 450 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choices of soup dish",
-            "Choices of vegetables",
-            "Choices of pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
+            "Choice of vegetables or pasta/noodles",
+            "Choice of beef or pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
             "Choices of dessert",
-            "Jelly leche flan",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 550 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of vegetables",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 650 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, prawn crackers or chips)",
+            "Steamed Pandan Rice",
+            "Choice of soup dish",
+            "Choice of vegetables",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of 2 desserts",
             "Iced tea",
             "Purified water"
           ]
@@ -344,16 +554,17 @@
         "Reservation fee is Php 3000.00 (non-refundable if party is cancelled)",
         "Overtime fee of P100.00/hour after 4 hours of service and Php 100.00 per floor for each waiter if the function is held in a building w/o service elevator",
         "Distance fee of Php 100.00 per waiter if venue is far from the unloading area",
-        "Additional Transportation fee for out of Town Venue or 10km radius from the office",
+        "Additional Transportation fee for out-of-town venue or 10km radius from the office",
         "Additional fee for Lechon Chopper (Php 600.00 per Lechon)",
         "Additional Php 80.00 per head for Tiffany chair",
-        "Additional extra charge for special backdrop & decoration",
+        "Additional Php 3,000.00 extra charge for special backdrop with decoration and fresh flowers for 100pax Php 5,000.00, for 150pax Php 7,000.00 and 200pax Php 9,000.00",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
       ]
     },
     {
       "name": "Wedding Package",
+      "priceStart": "Php 350 per head",
       "inclusions": [
         "Menu of choices",
         "Floral Center piece for the bride and groom table",
@@ -380,26 +591,10 @@
           "price": "Php 350 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choices of vegetables or pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
-            "Choices of dessert",
-            "Iced tea",
-            "Purified water"
-          ]
-        },
-        {
-          "name": "Lunch or Dinner",
-          "price": "Php 400 per head",
-          "items": [
-            "Appetizer: (roasted peanuts, prawn crackers or chips)",
-            "Steamed Pandan Rice",
-            "Choices of vegetables",
-            "Choices of pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
+            "Choice of vegetables or pasta/noodles",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of pork dish",
             "Choices of dessert",
             "Iced tea",
             "Purified water"
@@ -410,14 +605,45 @@
           "price": "Php 450 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choices of soup dish",
-            "Choices of vegetables",
-            "Choices of pasta/noodles",
-            "Choices of chicken dish",
-            "Choices of fish dish",
-            "Choices of beef or pork dish",
+            "Choice of vegetables or pasta/noodles",
+            "Choice of beef or pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
             "Choices of dessert",
-            "Jelly leche flan",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 550 per head",
+          "items": [
+            "Steamed Pandan Rice",
+            "Choice of vegetables",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of dessert",
+            "Iced tea",
+            "Purified water"
+          ]
+        },
+        {
+          "name": "Lunch or Dinner",
+          "price": "Php 650 per head",
+          "items": [
+            "Appetizer: (roasted peanuts, prawn crackers or chips)",
+            "Steamed Pandan Rice",
+            "Choice of soup dish",
+            "Choice of vegetables",
+            "Choice of pasta/noodles",
+            "Choice of beef dish",
+            "Choice of pork dish",
+            "Choice of chicken dish",
+            "Choice of fish dish",
+            "Choice of 2 desserts",
             "Iced tea",
             "Purified water"
           ]
@@ -430,10 +656,10 @@
         "Reservation fee is Php 3000.00 (non-refundable if party is cancelled)",
         "Overtime fee of P100.00/hour after 4 hours of service and Php 100.00 per floor for each waiter if the function is held in a building w/o service elevator",
         "Distance fee of Php 100.00 per waiter if venue is far from the unloading area",
-        "Additional Transportation fee for out of Town Venue or 10km radius from the office",
+        "Additional Transportation fee for out-of-town venue or 10km radius from the office",
         "Additional fee for Lechon Chopper (Php 600.00 per Lechon)",
         "Additional Php 80.00 per head for Tiffany chair",
-        "Additional extra charge for special backdrop & decoration",
+        "Additional Php 3,000.00 extra charge for special backdrop with decoration and fresh flowers for 100pax Php 5,000.00, for 150pax Php 7,000.00 and 200pax Php 9,000.00",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
       ]
