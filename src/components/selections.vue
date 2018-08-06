@@ -25,10 +25,7 @@ li
   list-style-type none
 </style>
 <script>
-import DATA from '../statics/data.json'
 export default {
-  created () {
-    this.dishes = DATA.menuFoodSelections
-  }
+  props: ['dishes']
 }
 </script>

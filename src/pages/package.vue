@@ -45,7 +45,7 @@
       </li>
     </div>
     <separator v-if="shouldShowMenuSelections" />
-    <dishes v-if="shouldShowMenuSelections" />
+    <dishes v-if="shouldShowMenuSelections" :dishes="info.menuFoodSelections" />
   </q-page>
 </template>
 <script>

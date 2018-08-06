@@ -2,10 +2,11 @@
   "packages": [
     {
       "name": "Christening Package",
-      "priceStart": "Php 150 per kid",
+      "priceStart": "Php 250 per head",
       "inclusions": [
         "Menu of choices",
         "Impressive buffet tables with setup & center piece",
+        "Guest tables with floor length cloth, motif topper and center piece",
         "Motif color subject for availability",
         "Elegant dressed up monoblock chairs with cover & ribbon",
         "Gift and cake table with skirting",
@@ -59,44 +60,11 @@
         },
         {
           "name": "Lunch or Dinner",
-          "price": "Php 350 per head",
-          "items": [
-            "Steamed Pandan Rice",
-            "Choice of pasta/noodles",
-            "Choice of vegetables",
-            "Choice of pork dish",
-            "Choice of beef dish",
-            "Choice of chicken dish",
-            "Choice of fish dish",
-            "Choice of dessert",
-            "Bottomless Iced tea"
-          ]
-        },
-        {
-          "name": "Lunch or Dinner",
-          "price": "Php 370 per head",
-          "items": [
-            "Steamed Pandan Rice",
-            "Soup",
-            "Choice of pasta/noodles",
-            "Choice of vegetables",
-            "Choice of chicken or pork dish",
-            "Choice of beef dish",
-            "Choice of fish dish",
-            "Choice of dessert",
-            "Leche flan",
-            "Iced tea",
-            "Purified Water"
-          ]
-        },
-        {
-          "name": "Lunch or Dinner",
           "price": "Php 450 per head",
           "items": [
             "Steamed Pandan Rice",
             "Choices of pasta/noodles",
             "Choices of beef dish",
-            "Choices of pork dish",
             "Choices of chicken dish",
             "Choices of fish dish",
             "Choices of vegetables",
@@ -138,13 +106,161 @@
         "Client to bring container for left over"
       ],
       "freebies": { 
-        "description": "For Php 200.00 and up booking",
+        "description": "For Php 2000.00 and up booking",
         "items": [
           "3 x 4 Tarpaulin",
           "Cake arch balloons and centerpiece balloons",
           "Bottomless iced tea"
         ]
-      }
+      },
+      "menuFoodSelections":[
+        {
+          "name": "Soup",
+          "image": "soup.png",
+          "menus": [
+            "Cream of soup",
+            "Nido with quail eggs",
+            "Creamy Macaroni soup",
+            "Crab and corn soup",
+            "Onion soup",
+            "Cream of mushroom"
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "image": "vegetables.png",
+          "menus": [
+            "Buttered corn and carrots",
+            "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+            "Vegetable Lumpia with peanut sauce",
+            "Vegetarian Kare-kare",
+            "Special Oriental Chopsuey with quail eggs",
+            "Mixed vegetables with Ham & quail egg in cream sauce",
+            "Stir fry buttered mix vegetable in oyster sauce",
+            "Chinese kangkong with ground pork & tofu in oyster sauce",
+            "Stir fry bean sprout, carrots & cabbages",
+            "Fresh cucumber salad with lime dressing",
+            "Garden salad",
+            "Coleslaw"
+          ]
+        },
+        {
+          "name": "Pasta and Noodles",
+          "image": "pasta.png",
+          "menus": [
+            "Special Sauted Canton",
+            "Sauted Bihon",
+            "Sauted Sotanghon",
+            "Sauted Sotanghon / Canton",
+            "Spaghetti or Fettuccini Carbonara Royale",
+            "Creamy Spaghetti",
+            "Baked Macaroni",
+            "Baked Spaghetti",
+            "Baked Pene",
+            "White cream pasta w/ Tuna chunks",
+            "Creamy Spaghetti w/ Tuna chunks",
+            "Lasagna Php 350.00 and up"
+          ]
+        },
+        {
+          "name": "Fish",
+          "image": "fish.png",
+          "menus": [
+            "Breaded fish fillet with mayo mustard dip",
+            "Grilled fish with cucumber salsa",
+            "Sweet and sour fish fillet",
+            "Fish fillet with tofu & black beans",
+            "Fish fillet in lemon butter sauce",
+            "Fish shanghai rolls",
+            "Steamed fish fillet with white sauce and quail eggs",
+            "Grilled blue marlin or tuna steak for Php 450.00 and up",
+            "Grilled fish in lemon butter sauce"
+          ]
+        },
+        {
+          "name": "Chicken",
+          "image": "chicken.png",
+          "menus": [
+            "Breaded chicken cordon bleu in white cream sauce",
+            "Chicken strip teriyaki with bean sprout",
+            "Chicken ala pastel",
+            "Chicken Curry with vegetables",
+            "Diced chicken with cashew nuts",
+            "Breaded garlic chicken",
+            "Honey roasted chicken",
+            "Chicken with mushroom in cream sauce",
+            "Chicken in BBQ sauce with potato marbles and Quail eggs",
+            "Steamed cordon bleu with white cream sauce",
+            "Hongkong style fried chicken with chips",
+            "Chicken ala king",
+            "Chicken buffalo wings",
+            "Chicken barbecue"
+          ]
+        },
+        {
+          "name": "Pork",
+          "image": "pork.png",
+          "menus": [
+            "Sweet and sour pork cutlets",
+            "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+            "Pork supreme in mushroom and quail eggs",
+            "Savory meat rolls",
+            "Pork Hardinera",
+            "Pork Tonkatsu",
+            "Pork ribs Calderetta with cheese",
+            "Grilled liempo in Barbecue sauce",
+            "Pork asado royale",
+            "Pork with Mushroom in Cream sauce",
+            "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+            "Pork roll crunch",
+            "Hawaiian roast pork with pineapple",
+            "Pork legs Kare-kare with special bagoong",
+            "Pork Shanghai rolls",
+            "Pork Hamonado",
+            "Pork bacon steak ala pobre",
+            "Pork ala pastel",
+            "Chinese style Lechon kawali with sauce",
+            "Spanish pork stew",
+            "Pork Teriyaki with bean sprout"
+          ]
+        },
+        {
+          "name": "Beef",
+          "image": "beef.png",
+          "menus": [
+            "Roast beef in mushroom gravy sauce with mashed potato",
+            "Beef with mushroom in cream sauce",
+            "Saucy special beef Calderetta",
+            "Beef with Brocolli and green peas in oyster sauce",
+            "Beef teriyaki with bean sprout",
+            "Beef Stroganoff",
+            "Korean beef stew supreme",
+            "Beef bristket chunks Mechado",
+            "Shredded beef with red & green bell pepper and butter mushroom",
+            "Beef oxtail Kare-kare with special bagoong alamang",
+            "Beef strips steak with onion rings, potato and bell pepper",
+            "Hawaiian beef asado with pineapple chunks",
+            "Beef Morcon"
+          ]
+        },
+        {
+          "name": "Dessert",
+          "image": "dessert.png",
+          "menus": [
+            "Buko Pandan",
+            "Creamy Fruit Salad",
+            "Buko Fruit Salad",
+            "Leche Plan",
+            "Jelly Leche Plan",
+            "Coffee Jelly with Cream and Tapioca",
+            "Mango Jelly with Cream and Tapioca",
+            "Penne or Macaroni Chicken salad for Php 350.00 and up",
+            "Tropical fruit cocktail",
+            "Assorted fruits in season",
+            "Mango gelatin"
+          ]
+        }
+      ]
     },
     {
       "name": "Birthday Package",
@@ -152,6 +268,7 @@
       "inclusions": [
         "Menu of choices",
         "Impressive buffet tables with setup & center piece",
+        "Guest tables with floor length cloth, motif topper and center piece",
         "Motif color subject for availability",
         "Elegant dressed up monoblock chairs with cover & ribbon",
         "Gift and cake table with skirting",
@@ -199,7 +316,7 @@
           "price": "Php 170 per kid",
           "items": [
             "Spaghetti",
-            "Fried finger or Lollipop",
+            "Fried chicken or Lollipop",
             "Pork Barbecue",
             "Hotdog on stick with marshmallow",
             "Cupcakes",
@@ -290,7 +407,6 @@
             "Steamed Pandan Rice",
             "Choice of pasta/noodles",
             "Choice of vegetables",
-            "Choice of pork dish",
             "Choice of beef dish",
             "Choice of chicken dish",
             "Choice of fish dish",
@@ -347,13 +463,161 @@
         "Client to bring container for left over"
       ],
       "freebies": { 
-        "description": "For Php 200.00 and up booking",
+        "description": "For Php 2000.00 and up booking",
         "items": [
           "3 x 4 Tarpaulin",
           "Cake arch balloons and centerpiece balloons",
           "Bottomless iced tea"
         ]
-      }
+      },
+      "menuFoodSelections":[
+        {
+          "name": "Soup",
+          "image": "soup.png",
+          "menus": [
+            "Cream of soup",
+            "Nido with quail eggs",
+            "Creamy Macaroni soup",
+            "Crab and corn soup",
+            "Onion soup",
+            "Cream of mushroom"
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "image": "vegetables.png",
+          "menus": [
+            "Buttered corn and carrots",
+            "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+            "Vegetable Lumpia with peanut sauce",
+            "Vegetarian Kare-kare",
+            "Special Oriental Chopsuey with quail eggs",
+            "Mixed vegetables with Ham & quail egg in cream sauce",
+            "Stir fry buttered mix vegetable in oyster sauce",
+            "Chinese kangkong with ground pork & tofu in oyster sauce",
+            "Stir fry bean sprout, carrots & cabbages",
+            "Fresh cucumber salad with lime dressing",
+            "Garden salad",
+            "Coleslaw"
+          ]
+        },
+        {
+          "name": "Pasta and Noodles",
+          "image": "pasta.png",
+          "menus": [
+            "Special Sauted Canton",
+            "Sauted Bihon",
+            "Sauted Sotanghon",
+            "Sauted Sotanghon / Canton",
+            "Spaghetti or Fettuccini Carbonara Royale",
+            "Creamy Spaghetti",
+            "Baked Macaroni",
+            "Baked Spaghetti",
+            "Baked Pene",
+            "White cream pasta w/ Tuna chunks",
+            "Creamy Spaghetti w/ Tuna chunks",
+            "Lasagna Php 350.00 and up"
+          ]
+        },
+        {
+          "name": "Fish",
+          "image": "fish.png",
+          "menus": [
+            "Breaded fish fillet with mayo mustard dip",
+            "Grilled fish with cucumber salsa",
+            "Sweet and sour fish fillet",
+            "Fish fillet with tofu & black beans",
+            "Fish fillet in lemon butter sauce",
+            "Fish shanghai rolls",
+            "Steamed fish fillet with white sauce and quail eggs",
+            "Grilled blue marlin or tuna steak for Php 450.00 and up",
+            "Grilled fish in lemon butter sauce"
+          ]
+        },
+        {
+          "name": "Chicken",
+          "image": "chicken.png",
+          "menus": [
+            "Breaded chicken cordon bleu in white cream sauce",
+            "Chicken strip teriyaki with bean sprout",
+            "Chicken ala pastel",
+            "Chicken Curry with vegetables",
+            "Diced chicken with cashew nuts",
+            "Breaded garlic chicken",
+            "Honey roasted chicken",
+            "Chicken with mushroom in cream sauce",
+            "Chicken in BBQ sauce with potato marbles and Quail eggs",
+            "Steamed cordon bleu with white cream sauce",
+            "Hongkong style fried chicken with chips",
+            "Chicken ala king",
+            "Chicken buffalo wings",
+            "Chicken barbecue"
+          ]
+        },
+        {
+          "name": "Pork",
+          "image": "pork.png",
+          "menus": [
+            "Sweet and sour pork cutlets",
+            "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+            "Pork supreme in mushroom and quail eggs",
+            "Savory meat rolls",
+            "Pork Hardinera",
+            "Pork Tonkatsu",
+            "Pork ribs Calderetta with cheese",
+            "Grilled liempo in Barbecue sauce",
+            "Pork asado royale",
+            "Pork with Mushroom in Cream sauce",
+            "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+            "Pork roll crunch",
+            "Hawaiian roast pork with pineapple",
+            "Pork legs Kare-kare with special bagoong",
+            "Pork Shanghai rolls",
+            "Pork Hamonado",
+            "Pork bacon steak ala pobre",
+            "Pork ala pastel",
+            "Chinese style Lechon kawali with sauce",
+            "Spanish pork stew",
+            "Pork Teriyaki with bean sprout"
+          ]
+        },
+        {
+          "name": "Beef",
+          "image": "beef.png",
+          "menus": [
+            "Roast beef in mushroom gravy sauce with mashed potato",
+            "Beef with mushroom in cream sauce",
+            "Saucy special beef Calderetta",
+            "Beef with Brocolli and green peas in oyster sauce",
+            "Beef teriyaki with bean sprout",
+            "Beef Stroganoff",
+            "Korean beef stew supreme",
+            "Beef bristket chunks Mechado",
+            "Shredded beef with red & green bell pepper and butter mushroom",
+            "Beef oxtail Kare-kare with special bagoong alamang",
+            "Beef strips steak with onion rings, potato and bell pepper",
+            "Hawaiian beef asado with pineapple chunks",
+            "Beef Morcon"
+          ]
+        },
+        {
+          "name": "Dessert",
+          "image": "dessert.png",
+          "menus": [
+            "Buko Pandan",
+            "Creamy Fruit Salad",
+            "Buko Fruit Salad",
+            "Leche Plan",
+            "Jelly Leche Plan",
+            "Coffee Jelly with Cream and Tapioca",
+            "Mango Jelly with Cream and Tapioca",
+            "Penne or Macaroni Chicken salad for Php 350.00 and up",
+            "Tropical fruit cocktail",
+            "Assorted fruits in season",
+            "Mango gelatin"
+          ]
+        }
+      ]
     },
     {
       "name": "Party Package",
@@ -361,6 +625,7 @@
       "inclusions": [
         "Menu of choices",
         "Impressive buffet tables with setup & center piece",
+        "Guest tables with floor length cloth, motif topper and center piece",
         "Motif color subject for availability",
         "Elegant dressed up monoblock chairs with cover & ribbon",
         "Gift and cake table with skirting",
@@ -403,7 +668,6 @@
             "Steamed Pandan Rice",
             "Choice of pasta/noodles",
             "Choice of vegetables",
-            "Choice of pork dish",
             "Choice of beef dish",
             "Choice of chicken dish",
             "Choice of fish dish",
@@ -458,6 +722,154 @@
         "Additional extra charge for special backdrop & decoration",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
+      ],
+      "menuFoodSelections":[
+        {
+          "name": "Soup",
+          "image": "soup.png",
+          "menus": [
+            "Cream of soup",
+            "Nido with quail eggs",
+            "Creamy Macaroni soup",
+            "Crab and corn soup",
+            "Onion soup",
+            "Cream of mushroom"
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "image": "vegetables.png",
+          "menus": [
+            "Buttered corn and carrots",
+            "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+            "Vegetable Lumpia with peanut sauce",
+            "Vegetarian Kare-kare",
+            "Special Oriental Chopsuey with quail eggs",
+            "Mixed vegetables with Ham & quail egg in cream sauce",
+            "Stir fry buttered mix vegetable in oyster sauce",
+            "Chinese kangkong with ground pork & tofu in oyster sauce",
+            "Stir fry bean sprout, carrots & cabbages",
+            "Fresh cucumber salad with lime dressing",
+            "Garden salad",
+            "Coleslaw"
+          ]
+        },
+        {
+          "name": "Pasta and Noodles",
+          "image": "pasta.png",
+          "menus": [
+            "Special Sauted Canton",
+            "Sauted Bihon",
+            "Sauted Sotanghon",
+            "Sauted Sotanghon / Canton",
+            "Spaghetti or Fettuccini Carbonara Royale",
+            "Creamy Spaghetti",
+            "Baked Macaroni",
+            "Baked Spaghetti",
+            "Baked Pene",
+            "White cream pasta w/ Tuna chunks",
+            "Creamy Spaghetti w/ Tuna chunks",
+            "Lasagna Php 350.00 and up"
+          ]
+        },
+        {
+          "name": "Fish",
+          "image": "fish.png",
+          "menus": [
+            "Breaded fish fillet with mayo mustard dip",
+            "Grilled fish with cucumber salsa",
+            "Sweet and sour fish fillet",
+            "Fish fillet with tofu & black beans",
+            "Fish fillet in lemon butter sauce",
+            "Fish shanghai rolls",
+            "Steamed fish fillet with white sauce and quail eggs",
+            "Grilled blue marlin or tuna steak for Php 450.00 and up",
+            "Grilled fish in lemon butter sauce"
+          ]
+        },
+        {
+          "name": "Chicken",
+          "image": "chicken.png",
+          "menus": [
+            "Breaded chicken cordon bleu in white cream sauce",
+            "Chicken strip teriyaki with bean sprout",
+            "Chicken ala pastel",
+            "Chicken Curry with vegetables",
+            "Diced chicken with cashew nuts",
+            "Breaded garlic chicken",
+            "Honey roasted chicken",
+            "Chicken with mushroom in cream sauce",
+            "Chicken in BBQ sauce with potato marbles and Quail eggs",
+            "Steamed cordon bleu with white cream sauce",
+            "Hongkong style fried chicken with chips",
+            "Chicken ala king",
+            "Chicken buffalo wings",
+            "Chicken barbecue"
+          ]
+        },
+        {
+          "name": "Pork",
+          "image": "pork.png",
+          "menus": [
+            "Sweet and sour pork cutlets",
+            "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+            "Pork supreme in mushroom and quail eggs",
+            "Savory meat rolls",
+            "Pork Hardinera",
+            "Pork Tonkatsu",
+            "Pork ribs Calderetta with cheese",
+            "Grilled liempo in Barbecue sauce",
+            "Pork asado royale",
+            "Pork with Mushroom in Cream sauce",
+            "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+            "Pork roll crunch",
+            "Hawaiian roast pork with pineapple",
+            "Pork legs Kare-kare with special bagoong",
+            "Pork Shanghai rolls",
+            "Pork Hamonado",
+            "Pork bacon steak ala pobre",
+            "Pork ala pastel",
+            "Chinese style Lechon kawali with sauce",
+            "Spanish pork stew",
+            "Pork Teriyaki with bean sprout"
+          ]
+        },
+        {
+          "name": "Beef",
+          "image": "beef.png",
+          "menus": [
+            "Roast beef in mushroom gravy sauce with mashed potato",
+            "Beef with mushroom in cream sauce",
+            "Saucy special beef Calderetta",
+            "Beef with Brocolli and green peas in oyster sauce",
+            "Beef teriyaki with bean sprout",
+            "Beef Stroganoff",
+            "Korean beef stew supreme",
+            "Beef bristket chunks Mechado",
+            "Shredded beef with red & green bell pepper and butter mushroom",
+            "Beef oxtail Kare-kare with special bagoong alamang",
+            "Beef strips steak with onion rings, potato and bell pepper",
+            "Hawaiian beef asado with pineapple chunks",
+            "Beef Morcon"
+          ]
+        },
+        {
+          "name": "Dessert",
+          "image": "dessert.png",
+          "menus": [
+            "Buko Pandan",
+            "Creamy Fruit Salad",
+            "Buko Fruit Salad",
+            "Leche Plan",
+            "Jelly Leche Plan",
+            "Coffee Jelly with Cream and Tapioca",
+            "Mango Jelly with Cream and Tapioca",
+            "Penne or Macaroni Chicken salad for Php 350.00 and up",
+            "Tropical fruit cocktail",
+            "Assorted fruits in season",
+            "Mango gelatin"
+          ]
+        }
       ]
     },
     {
@@ -470,10 +882,8 @@
         "18 Candles with special stand",
         "Decorated cake and gift table",
         "Red carpet",
-        "Two-layered sugar coated cake ( FREE for menu worth of Php 400 per head and up)",
         "Arch balloon for the entrance",
-        "Personalized tarpaulin (2x6 ft.)",
-        "Floral center piece with candle for guest table",
+        "Artificial floral centerpiece with candle for guest",
         "Impressive buffet table with set up & center piece",
         "Motif color subject for availability",
         "Elegant dressed up mono block chair w/ ribbon",
@@ -503,7 +913,8 @@
           "price": "Php 450 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choice of vegetables or pasta/noodles",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
             "Choice of beef or pork dish",
             "Choice of chicken dish",
             "Choice of fish dish",
@@ -560,6 +971,154 @@
         "Additional Php 3,000.00 extra charge for special backdrop with decoration and fresh flowers for 100pax Php 5,000.00, for 150pax Php 7,000.00 and 200pax Php 9,000.00",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
+      ],
+      "menuFoodSelections":[
+        {
+          "name": "Soup",
+          "image": "soup.png",
+          "menus": [
+            "Cream of soup",
+            "Nido with quail eggs",
+            "Creamy Macaroni soup",
+            "Crab and corn soup",
+            "Onion soup",
+            "Cream of mushroom"
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "image": "vegetables.png",
+          "menus": [
+            "Buttered corn and carrots",
+            "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+            "Vegetable Lumpia with peanut sauce",
+            "Vegetarian Kare-kare",
+            "Special Oriental Chopsuey with quail eggs",
+            "Mixed vegetables with Ham & quail egg in cream sauce",
+            "Stir fry buttered mix vegetable in oyster sauce",
+            "Chinese kangkong with ground pork & tofu in oyster sauce",
+            "Stir fry bean sprout, carrots & cabbages",
+            "Fresh cucumber salad with lime dressing",
+            "Garden salad",
+            "Coleslaw"
+          ]
+        },
+        {
+          "name": "Pasta and Noodles",
+          "image": "pasta.png",
+          "menus": [
+            "Special Sauted Canton",
+            "Sauted Bihon",
+            "Sauted Sotanghon",
+            "Sauted Sotanghon / Canton",
+            "Spaghetti or Fettuccini Carbonara Royale",
+            "Creamy Spaghetti",
+            "Baked Macaroni",
+            "Baked Spaghetti",
+            "Baked Pene",
+            "White cream pasta w/ Tuna chunks",
+            "Creamy Spaghetti w/ Tuna chunks",
+            "Lasagna Php 450.00 and up"
+          ]
+        },
+        {
+          "name": "Fish",
+          "image": "fish.png",
+          "menus": [
+            "Breaded fish fillet with mayo mustard dip",
+            "Grilled fish with cucumber salsa",
+            "Sweet and sour fish fillet",
+            "Fish fillet with tofu & black beans",
+            "Fish fillet in lemon butter sauce",
+            "Fish shanghai rolls",
+            "Steamed fish fillet with white sauce and quail eggs",
+            "Grilled blue marlin or tuna steak for Php 550.00 and up",
+            "Grilled fish in lemon butter sauce"
+          ]
+        },
+        {
+          "name": "Chicken",
+          "image": "chicken.png",
+          "menus": [
+            "Breaded chicken cordon bleu in white cream sauce",
+            "Chicken strip teriyaki with bean sprout",
+            "Chicken ala pastel",
+            "Chicken Curry with vegetables",
+            "Diced chicken with cashew nuts",
+            "Breaded garlic chicken",
+            "Honey roasted chicken",
+            "Chicken with mushroom in cream sauce",
+            "Chicken in BBQ sauce with potato marbles and Quail eggs",
+            "Steamed cordon bleu with white cream sauce",
+            "Hongkong style fried chicken with chips",
+            "Chicken ala king",
+            "Chicken buffalo wings",
+            "Chicken barbecue"
+          ]
+        },
+        {
+          "name": "Pork",
+          "image": "pork.png",
+          "menus": [
+            "Sweet and sour pork cutlets",
+            "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+            "Pork supreme in mushroom and quail eggs",
+            "Savory meat rolls",
+            "Pork Hardinera",
+            "Pork Tonkatsu",
+            "Pork ribs Calderetta with cheese",
+            "Grilled liempo in Barbecue sauce",
+            "Pork asado royale",
+            "Pork with Mushroom in Cream sauce",
+            "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+            "Pork roll crunch",
+            "Hawaiian roast pork with pineapple",
+            "Pork legs Kare-kare with special bagoong",
+            "Pork Shanghai rolls",
+            "Pork Hamonado",
+            "Pork bacon steak ala pobre",
+            "Pork ala pastel",
+            "Chinese style Lechon kawali with sauce",
+            "Spanish pork stew",
+            "Pork Teriyaki with bean sprout"
+          ]
+        },
+        {
+          "name": "Beef",
+          "image": "beef.png",
+          "menus": [
+            "Roast beef in mushroom gravy sauce with mashed potato",
+            "Beef with mushroom in cream sauce",
+            "Saucy special beef Calderetta",
+            "Beef with Brocolli and green peas in oyster sauce",
+            "Beef teriyaki with bean sprout",
+            "Beef Stroganoff",
+            "Korean beef stew supreme",
+            "Beef bristket chunks Mechado",
+            "Shredded beef with red & green bell pepper and butter mushroom",
+            "Beef oxtail Kare-kare with special bagoong alamang",
+            "Beef strips steak with onion rings, potato and bell pepper",
+            "Hawaiian beef asado with pineapple chunks",
+            "Beef Morcon"
+          ]
+        },
+        {
+          "name": "Dessert",
+          "image": "dessert.png",
+          "menus": [
+            "Buko Pandan",
+            "Creamy Fruit Salad",
+            "Buko Fruit Salad",
+            "Leche Plan",
+            "Jelly Leche Plan",
+            "Coffee Jelly with Cream and Tapioca",
+            "Mango Jelly with Cream and Tapioca",
+            "Penne or Macaroni Chicken salad for Php 450.00 and up",
+            "Tropical fruit cocktail",
+            "Assorted fruits in season",
+            "Mango gelatin"
+          ]
+        }
       ]
     },
     {
@@ -567,14 +1126,12 @@
       "priceStart": "Php 350 per head",
       "inclusions": [
         "Menu of choices",
-        "Floral Center piece for the bride and groom table",
         "Decorated presidential table",
-        "Three-layered sugarcoated cake (FREE for menu worth Php 400.00 head and up)",
         "Decorated gift and cake table",
-        "One fair of dove in a decorated cage",
+        "One pair of dove in a decorated cage",
         "Wine for toasting",
-        "Signature frame",
-        "Floral center piece for guest table",
+        "Artificial floral centerpiece for the bride and groom table",
+        "Artificial floral centerpiece for sponsor and guest",
         "Impressive buffet table with set up and center piece",
         "Motif color subject for availability",
         "Elegant dressed up mono block chair with ribbon",
@@ -605,7 +1162,8 @@
           "price": "Php 450 per head",
           "items": [
             "Steamed Pandan Rice",
-            "Choice of vegetables or pasta/noodles",
+            "Choice of pasta/noodles",
+            "Choice of vegetables",
             "Choice of beef or pork dish",
             "Choice of chicken dish",
             "Choice of fish dish",
@@ -662,160 +1220,154 @@
         "Additional Php 3,000.00 extra charge for special backdrop with decoration and fresh flowers for 100pax Php 5,000.00, for 150pax Php 7,000.00 and 200pax Php 9,000.00",
         "Any losses, breakages, gate entrance fee & caterer bond of the venue will be added to the client",
         "Client to bring container for left over"
-      ]
-    }
-  ],
-  "menuFoodSelections":[
-    {
-      "name": "Soup",
-      "image": "soup.png",
-      "menus": [
-        "Cream of soup",
-        "Nido with quail eggs",
-        "Creamy Macaroni soup",
-        "Crab and corn soup",
-        "Onion soup",
-        "Cream of mushroom"
-      ]
-    },
-    {
-      "name": "Vegetables",
-      "image": "vegetables.png",
-      "menus": [
-        "Buttered corn and carrots",
-        "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
-        "Vegetable Lumpia with peanut sauce",
-        "Vegetarian Kare-kare",
-        "Special Oriental Chopsuey with quail eggs",
-        "Mixed vegetables with Ham & quail egg in cream sauce",
-        "Stir fry buttered mix vegetable in oyster sauce",
-        "Chinese kangkong with ground pork & tofu in oyster sauce",
-        "Stir fry bean sprout, carrots & cabbages",
-        "Stir fried shiitake and champignon",
-        "Special pinoy flattered with special bagoong",
-        "Fresh cucumber salad with lime dressing",
-        "Garden salad",
-        "Coleslaw"
-      ]
-    },
-    {
-      "name": "Pasta and Noodles",
-      "image": "pasta.png",
-      "menus": [
-        "Special Sauted Canton",
-        "Sauted Bihon",
-        "Sauted Sotanghon",
-        "Sauted Sotanghon / Canton",
-        "Spaghetti or Fettuccini Carbonara Royale",
-        "Creamy Spaghetti",
-        "Baked Macaroni",
-        "Baked Spaghetti",
-        "Baked Pene",
-        "White cream pasta w/ Tuna chunks",
-        "Creamy Spaghetti w/ Tuna chunks",
-        "Lasagna"
-      ]
-    },
-    {
-      "name": "Fish",
-      "image": "fish.png",
-      "menus": [
-        "Breaded fish fillet with mayo mustard dip",
-        "Grilled fish with cucumber salsa",
-        "Sweet and sour fish fillet",
-        "Fish fillet with tofu & black beans",
-        "Fish shanghai rolls",
-        "Steamed fish fillet with white sauce and quail eggs",
-        "Grilled blue marlin or tuna steak",
-        "Grilled fish in lemon butter sauce"
-      ]
-    },
-    {
-      "name": "Chicken",
-      "image": "chicken.png",
-      "menus": [
-        "Breaded chicken cordon bleu in white cream sauce",
-        "Chicken strip teriyaki with bean sprout",
-        "Chicken ala pastel",
-        "Chicken Curry with vegetables",
-        "Diced chicken with cashew nuts",
-        "Breaded garlic chicken",
-        "Honey roasted chicken",
-        "Chicken tonkatsu with mayo honey mustard dip",
-        "Chicken steak supreme",
-        "Chicken with mushroom in cream sauce",
-        "Chicken Al orange",
-        "Chicken in BBQ sauce with potato marbles and Quail eggs",
-        "Steamed cordon bleu with white cream sauce",
-        "Chicken flambé",
-        "Hongkong style fried chicken with chips",
-        "Chicken ala king",
-        "Chicken buffalo wings",
-        "Onion baked chicken with pineapple chunks or potato chips",
-        "Chicken barbecue"
-      ]
-    },
-    {
-      "name": "Pork",
-      "image": "pork.png",
-      "menus": [
-        "Sweet and sour pork cutlets",
-        "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
-        "Pork supreme in mushroom and quail eggs",
-        "Savory meat rolls",
-        "Pork Hardinera",
-        "Pork Tonkatsu",
-        "Pork ribs Calderetta with cheese",
-        "Grilled liempo in Barbecue sauce",
-        "Pork asado royale",
-        "Honey glazed pork",
-        "Roast Pork Loin in mushroom gravy sauce with mashed potato",
-        "Pork roll crunch",
-        "Hawaiian roast pork with pineapple",
-        "Pork legs Kare-kare with special bagoong",
-        "Pork Shanghai rolls",
-        "Pork Hamonado",
-        "Pork bacon steak ala pobre",
-        "Pork ala pastel",
-        "Chinese style Lechon kawali with sauce",
-        "Spanish pork stew",
-        "Pork Teriyaki with bean sprout"
-      ]
-    },
-    {
-      "name": "Beef",
-      "image": "beef.png",
-      "menus": [
-        "Roast beef in mushroom gravy sauce with mashed potato",
-        "Beef with mushroom in cream sauce",
-        "Saucy special beef Calderetta",
-        "Beef with Brocolli and green peas in oyster sauce",
-        "Beef teriyaki with bean sprout",
-        "Beef Stroganoff",
-        "Korean beef stew supreme",
-        "Beef bristket chunks Mechado",
-        "Shredded beef with red & green bell pepper and butter mushroom",
-        "Beef oxtail Kare-kare with special bagoong alamang",
-        "Beef strips steak with onion rings, potato and bell pepper",
-        "Hawaiian beef asado with pineapple chunks",
-        "Beef Morcon"
-      ]
-    },
-    {
-      "name": "Dessert",
-      "image": "dessert.png",
-      "menus": [
-        "Buko Pandan",
-        "Creamy Fruit Salad",
-        "Buko Fruit Salad",
-        "Leche Plan",
-        "Jelly Leche Plan",
-        "Coffee Jelly with Cream and Tapioca",
-        "Mango Jelly with Cream and Tapioca",
-        "Penne or Macaroni Chicken salad for Php 450.00 and up",
-        "Tropical fruit cocktail",
-        "Assorted fruits in season",
-        "Mango gelatin"
+      ],
+      "menuFoodSelections":[
+        {
+          "name": "Soup",
+          "image": "soup.png",
+          "menus": [
+            "Cream of soup",
+            "Nido with quail eggs",
+            "Creamy Macaroni soup",
+            "Crab and corn soup",
+            "Onion soup",
+            "Cream of mushroom"
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "image": "vegetables.png",
+          "menus": [
+            "Buttered corn and carrots",
+            "Fresh lumpia ubod with peanut sauce w/ homemade wrapper",
+            "Vegetable Lumpia with peanut sauce",
+            "Vegetarian Kare-kare",
+            "Special Oriental Chopsuey with quail eggs",
+            "Mixed vegetables with Ham & quail egg in cream sauce",
+            "Stir fry buttered mix vegetable in oyster sauce",
+            "Chinese kangkong with ground pork & tofu in oyster sauce",
+            "Stir fry bean sprout, carrots & cabbages",
+            "Fresh cucumber salad with lime dressing",
+            "Garden salad",
+            "Coleslaw"
+          ]
+        },
+        {
+          "name": "Pasta and Noodles",
+          "image": "pasta.png",
+          "menus": [
+            "Special Sauted Canton",
+            "Sauted Bihon",
+            "Sauted Sotanghon",
+            "Sauted Sotanghon / Canton",
+            "Spaghetti or Fettuccini Carbonara Royale",
+            "Creamy Spaghetti",
+            "Baked Macaroni",
+            "Baked Spaghetti",
+            "Baked Pene",
+            "White cream pasta w/ Tuna chunks",
+            "Creamy Spaghetti w/ Tuna chunks",
+            "Lasagna Php 450.00 and up"
+          ]
+        },
+        {
+          "name": "Fish",
+          "image": "fish.png",
+          "menus": [
+            "Breaded fish fillet with mayo mustard dip",
+            "Grilled fish with cucumber salsa",
+            "Sweet and sour fish fillet",
+            "Fish fillet with tofu & black beans",
+            "Fish fillet in lemon butter sauce",
+            "Fish shanghai rolls",
+            "Steamed fish fillet with white sauce and quail eggs",
+            "Grilled blue marlin or tuna steak for Php 550.00 and up",
+            "Grilled fish in lemon butter sauce"
+          ]
+        },
+        {
+          "name": "Chicken",
+          "image": "chicken.png",
+          "menus": [
+            "Breaded chicken cordon bleu in white cream sauce",
+            "Chicken strip teriyaki with bean sprout",
+            "Chicken ala pastel",
+            "Chicken Curry with vegetables",
+            "Diced chicken with cashew nuts",
+            "Breaded garlic chicken",
+            "Honey roasted chicken",
+            "Chicken with mushroom in cream sauce",
+            "Chicken in BBQ sauce with potato marbles and Quail eggs",
+            "Steamed cordon bleu with white cream sauce",
+            "Hongkong style fried chicken with chips",
+            "Chicken ala king",
+            "Chicken buffalo wings",
+            "Chicken barbecue"
+          ]
+        },
+        {
+          "name": "Pork",
+          "image": "pork.png",
+          "menus": [
+            "Sweet and sour pork cutlets",
+            "Spicy Pork Spareribs in barbecue sauce with potato marbles and quail eggs",
+            "Pork supreme in mushroom and quail eggs",
+            "Savory meat rolls",
+            "Pork Hardinera",
+            "Pork Tonkatsu",
+            "Pork ribs Calderetta with cheese",
+            "Grilled liempo in Barbecue sauce",
+            "Pork asado royale",
+            "Pork with Mushroom in Cream sauce",
+            "Roast Pork Loin in mushroom gravy sauce with mashed potato",
+            "Pork roll crunch",
+            "Hawaiian roast pork with pineapple",
+            "Pork legs Kare-kare with special bagoong",
+            "Pork Shanghai rolls",
+            "Pork Hamonado",
+            "Pork bacon steak ala pobre",
+            "Pork ala pastel",
+            "Chinese style Lechon kawali with sauce",
+            "Spanish pork stew",
+            "Pork Teriyaki with bean sprout"
+          ]
+        },
+        {
+          "name": "Beef",
+          "image": "beef.png",
+          "menus": [
+            "Roast beef in mushroom gravy sauce with mashed potato",
+            "Beef with mushroom in cream sauce",
+            "Saucy special beef Calderetta",
+            "Beef with Brocolli and green peas in oyster sauce",
+            "Beef teriyaki with bean sprout",
+            "Beef Stroganoff",
+            "Korean beef stew supreme",
+            "Beef bristket chunks Mechado",
+            "Shredded beef with red & green bell pepper and butter mushroom",
+            "Beef oxtail Kare-kare with special bagoong alamang",
+            "Beef strips steak with onion rings, potato and bell pepper",
+            "Hawaiian beef asado with pineapple chunks",
+            "Beef Morcon"
+          ]
+        },
+        {
+          "name": "Dessert",
+          "image": "dessert.png",
+          "menus": [
+            "Buko Pandan",
+            "Creamy Fruit Salad",
+            "Buko Fruit Salad",
+            "Leche Plan",
+            "Jelly Leche Plan",
+            "Coffee Jelly with Cream and Tapioca",
+            "Mango Jelly with Cream and Tapioca",
+            "Penne or Macaroni Chicken salad for Php 450.00 and up",
+            "Tropical fruit cocktail",
+            "Assorted fruits in season",
+            "Mango gelatin"
+          ]
+        }
       ]
     }
   ],
