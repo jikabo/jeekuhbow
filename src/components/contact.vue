@@ -10,6 +10,7 @@
         <p><q-icon name="phone android" />(63) 917-868-1014</p>
         <p><q-icon name="phone iphone" />(63) 939-917-2933</p>
         <p><q-icon name="phone android" />(63) 932-848-1014</p>
+        <p><q-icon name="phone iphone" />(63) 925-555-7526</p>
         <p>Email us at: <q-icon name="email" /> jikabocatering@yahoo.com</p>
         <p>Visit our Facebook Page: <a href="https://www.facebook.com/jikabocateringservices/">Jikabo Catering Services, Inc.</a></p>
       </div>
